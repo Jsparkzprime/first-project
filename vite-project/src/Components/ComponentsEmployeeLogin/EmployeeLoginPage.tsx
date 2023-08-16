@@ -1,12 +1,12 @@
 import LoginInput from "../LoginInput"
 import Navbar from "../Navbar"
 
-function AccountantLoginPage() {
+function EmployeeLoginPage() {
     return(
         <div>
-            <Navbar TextNavbar="ACCOUNTANT LOGIN"/>
+            <Navbar TextNavbar="EMPLOYEE LOGIN"/>
             <LoginInput/>
         </div>
     )
 }
-export default AccountantLoginPage
+export default EmployeeLoginPage
